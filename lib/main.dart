@@ -31,6 +31,7 @@ class MyAppState extends State<MyApp> {
       "What's you favourite animal?"
     ];
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
           title: Text("Quizer.io"),
